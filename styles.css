@@ -349,7 +349,7 @@ body {
 .five_section_div_div_div {
     background: white;
     border-radius: 15px;
-    min-width: 400px;
+    min-width: 300px;
     max-width: 590px;
     padding: 46px;
     margin: 60px;
@@ -568,10 +568,36 @@ body {
     }
 }
 
+.seven_section_div_bg {
+    width: 100%;
+}
+
+.seven_section_div_bg_div {
+    position: relative;
+}
+
+.seven_section_div_bg_bg_div {
+    position: absolute;
+    top: 40px;
+}
+
+.second_section_div_titlesection_pathone_img_mobile {
+    display: none;
+}
+
+.six_section_div_design {
+    width: 100%;
+    position: relative;
+    top: -10px;
+}
+
+.six_section_div_img {
+    width: 100%;
+}
+
 .seven_section_div {
-    background-image: url('sevenbg.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    width: 100%;
+    background-color: #C396FE;
 }
 
 @keyframes scroll-left {
@@ -585,6 +611,74 @@ body {
 }
 
 @media (max-width: 768px) {
+    .seven_section_div_content_two {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 36px;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .seven_section_div_content_two_input {
+        border-radius: 20px;
+        border: none;
+        width: 56%;
+        padding: 18px;
+    }
+
+    .seven_section_div_content_one_para {
+        width: 90%;
+    }
+
+    .seven_section_div_content_one_head {
+        font-size: 23px;
+        margin-left: 13px;
+    }
+
+    .six_section_div_head {
+        color: white;
+        width: 90%;
+    }
+
+    .five_section_div_div_second {
+        position: relative;
+        top: -140px;
+    }
+
+    .five_section_div_header {
+        font-size: 1.5rem;
+    }
+
+    .five_section_div_para {
+        font-size: 1rem;
+    }
+
+    .three_section_first_header {
+        font-size: 25px;
+    }
+
+    .three_section_first_para {
+        font-size: 15px;
+        margin-top: 30px;
+        font-weight: 600;
+    }
+
+    .three_section_second_para {
+        font-size: 15px;
+        margin-top: 30px;
+        font-weight: 600;
+        margin-bottom: 50px;
+    }
+
+    .second_section_div_titlesection {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .second_section_div_titlesection_pathone_img_mobile {
+        display: inline;
+    }
+
     .first_section_destopimage {
         display: none;
     }
@@ -635,7 +729,7 @@ body {
 
     .second_section_div_titlesection_pathtwo {
         display: flex;
-        padding-right: 60px;
+        padding-right: 0px;
         flex-direction: column;
     }
 
@@ -654,7 +748,7 @@ body {
     }
 
     .paras {
-        margin-left: 40px;
+        margin: 0px 10px 0px 10px;
     }
 
     .line {
@@ -710,9 +804,155 @@ body {
         display: none;
     }
 
+    .five_section_div_div_div_img_div {
+        margin: 0px 10px 0px 67px;
+    }
+
     .five_section_div_div_div_img_mobile {
         display: inline;
         width: 78%;
-        margin-left: 70px;
+        margin-left: 0px;
     }
+
+    .five_section_div_div_div_img_two {
+        width: 78%;
+        margin-left: 0px;
+    }
+
+    .footer_main {
+        margin-top: 50px;
+        display: flex;
+        width: 100vw;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .first_section_pathone_firsthalf {
+        margin-bottom: 20px;
+    }
+
+    .first_section_pathone_secondhalf {
+        padding: 10px;
+        padding-top: 250px;
+    }
+
+    .first_section_pathone_secondhalf_second {
+        font-weight: bold;
+        font-size: 30px;
+        color: #B8EB84;
+    }
+
+    .second_section_div_titlesection_pathone_content_div {
+        margin: 0px;
+    }
+}
+
+
+.montserrat-alternates-thin {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.montserrat-alternates-extralight {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.montserrat-alternates-light {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.montserrat-alternates-regular {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.montserrat-alternates-medium {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.montserrat-alternates-semibold {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.montserrat-alternates-bold {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.montserrat-alternates-extrabold {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.montserrat-alternates-black {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.montserrat-alternates-thin-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.montserrat-alternates-extralight-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.montserrat-alternates-light-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.montserrat-alternates-regular-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.montserrat-alternates-medium-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.montserrat-alternates-semibold-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.montserrat-alternates-bold-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.montserrat-alternates-extrabold-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.montserrat-alternates-black-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 900;
+    font-style: italic;
 }
